@@ -22,7 +22,7 @@ Unpacking objects: 100% (4/4), done.
 
 ## Persiapan Database
 
-Aplikasi ini menggunakan database mySql. Untuk dapat menjalankan aplikasi ini silahkan buat settingan databaseseperti dibawah ini:
+Aplikasi ini menggunakan database MySql. Untuk dapat menjalankan aplikasi ini silahkan buat settingan database seperti dibawah ini:
 
 ```
 Nama Database: "jobsdb"
