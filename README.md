@@ -1,4 +1,4 @@
-# Panduan Penggunaan Git
+# Panduan Penggunaan
 
 ## Mengunduh Repository
 
