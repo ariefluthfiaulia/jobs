@@ -6,7 +6,7 @@ Unduh repository ke dalam komputer menggunakan perintah `git clone`. Url
 repository dapat dilihat di dalam repository yang diinginkan.
 
 ```
-git clone <url repository> <folder tujuan>
+git clone https://github.com/ariefluthfiaulia/jobs.git <folder tujuan>
 ```
 
 #### Contoh
@@ -30,4 +30,10 @@ Username: "root"
 Password: [kosong]
 ```
 
+Jika settingan database di local anda tidak seperti diatas silahkan edit bagian ***application.properties*** pada repo yang telan anda download, dan silahkan edit pada bagian ini:
 
+```
+spring.datasource.url= jdbc:mysql://localhost:3306/<nama database anda>
+spring.datasource.username= <username database anda>
+spring.datasource.password= <password database anda>
+```
